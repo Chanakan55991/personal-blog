@@ -1,0 +1,36 @@
+---
+import BaseHead from '../components/BaseHead.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import { SITE_TITLE, SITE_DESCRIPTION, HOMEPAGE_URL } from '../config'
+import Body from '../components/Body.astro'
+import Content from '../components/Content.astro'
+import Masthead from '../components/Masthead.astro'
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <Body>
+    <Header title={SITE_TITLE} />
+    <main class="pt-[56px]">
+      <Masthead />
+      <Content>
+        <section>
+          <h1 class="text-3xl text-center font-mplus mt-12 mb-8">
+            Page not found :(
+          </h1>
+          <div class="text-center py-4 items-center gap-1">
+            It might have been deleted, Click <a
+              class="text-orange-500 underline underline-offset-2 decoration-orange-500"
+              href="/">here</a
+            > to go back home
+          </div>
+        </section>
+      </Content>
+    </main>
+    <Footer />
+  </Body>
+</html>
