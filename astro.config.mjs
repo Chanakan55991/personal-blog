@@ -12,6 +12,6 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://example.com',
+  site: 'https://blog.chanakancloud.net/',
   integrations: [sitemap(), react(), image(), tailwind()]
 });
