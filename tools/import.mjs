@@ -21,7 +21,7 @@ await liveExport.start({
     frontmatter.title = note.title
     frontmatter.createdAt = note.createdAt
     frontmatter.updatedAt = note.updatedAt
-    frontmatter.tags = tags.map(t => t.name)
+    frontmatter.tags = tags.length > 0 ? tags.map(t => t.name) : ['General']
     frontmatter.heroImage = '/astrojs.jpg'
     if (!frontmatter.slug) frontmatter.slug = toKebabCase(note.title)
   },
