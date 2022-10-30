@@ -1,6 +1,5 @@
 ---
 description: My first blog post
-slug: first
 public: true
 layout: ../../layouts/BlogPost.astro
 title: Hello & Welcome!

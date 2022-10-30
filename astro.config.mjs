@@ -15,7 +15,8 @@ import addClasses from 'rehype-add-classes'
 // https://astro.build/config
 export default defineConfig({
   site: 'https://blog.chanakancloud.net/',
-  integrations: [sitemap(), react(), image({
+  integrations: [sitemap(), react(),
+  image({
     serviceEntryPoint: '@astrojs/image/sharp'
   }), tailwind()],
   markdown: {
