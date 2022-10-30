@@ -13,7 +13,8 @@ export const get = () =>
 		items: posts.map((post) => ({
 			link: post.url,
 			title: post.frontmatter.title,
-			pubDate: post.frontmatter.createdAt
+			pubDate: post.frontmatter.createdAt,
+			description: post.frontmatter.description
 		})),
 		stylesheet: '/rss/styles.xsl'
 	});
