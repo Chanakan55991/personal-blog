@@ -29,6 +29,9 @@ export default function DropdownMenu() {
             <DropdownMenuItem href='/categories/photography'>
               Photography
             </DropdownMenuItem>
+            <DropdownMenuItem href='/categories/productivity'>
+              Productivity
+            </DropdownMenuItem>
 
           </div>
         </Menu.Items>

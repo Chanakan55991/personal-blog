@@ -1,7 +1,7 @@
 ---
 description: My first blog post
-public: true
 slug: first
+public: true
 layout: ../../layouts/BlogPost.astro
 title: Hello & Welcome!
 createdAt: 1667087096018
