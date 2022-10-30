@@ -14,7 +14,7 @@ export const get = () =>
 			link: post.url,
 			title: post.frontmatter.title,
 			pubDate: post.frontmatter.createdAt,
-			description: post.frontmatter.description
+			description: post.rawContent()
 		})),
 		stylesheet: '/rss/styles.xsl'
 	});
