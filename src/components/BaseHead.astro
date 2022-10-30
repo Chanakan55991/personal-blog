@@ -36,12 +36,6 @@ const { title, description, image = '/cover.jpg' } = Astro.props
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
-<script
-  async
-  defer
-  data-website-id="5cea8238-6b2c-42d7-8c38-6c189f4e654b"
-  src="https://analytics.chanakancloud.net/brew.js"
-></script>
 <script is:inline>
   const theme = (() => {
     if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
