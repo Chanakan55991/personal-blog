@@ -5,13 +5,17 @@ slug: tools-dev-student
 layout: ../../layouts/BlogPost.astro
 title: Tools I use as a hobbyist developer and a student
 createdAt: 1667108925901
-updatedAt: 1667113079672
+updatedAt: 1667113694235
 tags:
   - Productivity
 heroImage: /posts/tools-dev-student_thumbnail.png
 ---
 
+## TL;DR
+- [Inkdrop](https://www.inkdrop.app) & [Logseq](https://logseq.com) for digital project management
+- [Bullet Journal](https://www.bulletjournal.com) for personal life management and insights.
 
+## A longer version
 Some of you may know, I am a big fan of [Inkdrop](https://www.inkdrop.app), a markdown-based note-taking app made by [Takuya Matsuyama](https://craftz.dog). Inkdrop is basically what I used for writing blogs (like right now!) and also to take notes of all of my programming tasks and more. I also used to use this to note all my classes notes, but have since changed to take note on a [Bullet Journal](https://www.bulletjournal.com), an analog-driven system invented by [Ryder Carroll](https://www.rydercarroll.com), and make note (elaborate on what I wrote inside a Bullet Journal) on [Logseq](https://logseq.com). All of this had helped me with school and to keep me going with my personal project(s). Now, none of the product I have written is sponsoring me, it is just what I stumbled on while going on with my days and tried it. I will be explaning in greater details of how I use these products in harmony together.
 
 ## School/Personal Life (non-tech related)
