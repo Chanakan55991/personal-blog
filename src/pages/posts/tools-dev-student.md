@@ -5,7 +5,7 @@ slug: tools-dev-student
 layout: ../../layouts/BlogPost.astro
 title: Tools I use as a hobbyist developer and a student
 createdAt: 1667108925901
-updatedAt: 1667113694235
+updatedAt: 1667129451393
 tags:
   - Productivity
 heroImage: /posts/tools-dev-student_thumbnail.png
@@ -31,4 +31,10 @@ Some of you may know, I am a big fan of [Inkdrop](https://www.inkdrop.app), a ma
 ## Why analog tools?
 ![bujo.png](/posts/tools-dev-student_bujo-png.png)
 
-I feels like in these digital world, there are simply too much information to consume all at once, and there are also unlimited amount of distraction, as soon as you open your phone to check something. [Research have shown](https://sci-hub.se/10.1086/691462) that simply just having a phone in the same room as you could reduce your cognitive capacity. And simply by having pen and paper, you wouldn't be able to write a whole lecture alone without thinking, right? Your brain try to shorten a sentence and using your own words so you would be able to write it down in time. Which means you will strategically think for a way to write things down faster. And it also help us with engaging with the information. Sure writing on a digital devices is easier and faster, but because it is "faster" we wouldn't have time to think about what we were writing down, and it would simply go pass by. And so I used an analog system to help me remember things, and to consider only what matters. 
+I feels like in these digital world, there are simply too much information to consume all at once, and there are also unlimited amount of distraction, as soon as you open your phone to check something. [Research have shown](https://sci-hub.se/10.1086/691462) that simply just having a phone in the same room as you could reduce your cognitive capacity. And simply by having pen and paper, you wouldn't be able to write a whole lecture alone without thinking, right? Your brain will try to shorten a sentence and you will start using your own words in a note so you would be able to write it down in time. Which means you will strategically think for a way to write things down faster. And it also help us with engaging with the information. Sure writing on a digital devices is easier and faster, but because it is "faster" we wouldn't have time to think about what we were writing down, and it would simply go pass by. And so I used an analog system to help me remember things, and to consider only what matters. My goal is to **not** eliminate everything digital. But rather to control it, and to still be able to do things when digital stuff fail.
+
+## Conclusion
+I think it all really depend on your need and preferences to choose a producitivty tools, I have also tried [Notion](https://www.notion.so) myself but it's just simply not my cup of tea. What matters the most is that the system "works" for you. I prefer having analog and digital system together just because I have to do a lot of stuff digitally anyway. If anyone wants to learn more about how to manage your times better, or to actually live an intentional life, I recommended reading some of the books below (None of the links are affiliated links either):
+- [Ryder Carroll - The Bullet Journal Method](https://www.amazon.com/Bullet-Journal-Method-Present-Design/dp/0525533338/)
+- [Tiago Forte - Building a Second Brain](https://www.amazon.com/Building-Second-Brain-Organize-Potential/dp/1982167386)
+- [Cal Newport - A World Without Email](https://www.amazon.com/World-Without-Email-Reimagining-Communication/dp/0525536558)
