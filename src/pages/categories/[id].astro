@@ -22,6 +22,14 @@ export function getStaticPaths() {
     {
       id: 'general',
       name: 'General'
+    },
+    {
+      id: 'thai',
+      name: 'ภาษาไทย'
+    },
+    {
+      id: 'books',
+      name: 'books'
     }
   ]
   return categories.map(({ id, name }) => {

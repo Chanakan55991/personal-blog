@@ -32,6 +32,12 @@ export default function DropdownMenu() {
             <DropdownMenuItem href='/categories/productivity'>
               Productivity
             </DropdownMenuItem>
+            <DropdownMenuItem href='/categories/thai'>
+              ภาษาไทย
+            </DropdownMenuItem>
+            <DropdownMenuItem href='/categories/books'>
+              Books
+            </DropdownMenuItem>
 
           </div>
         </Menu.Items>
