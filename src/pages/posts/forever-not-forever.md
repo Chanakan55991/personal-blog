@@ -7,7 +7,8 @@ title: หนังสือเกี่ยวกับความไม่แ�
 createdAt: 1667645797062
 updatedAt: 1667649724446
 tags:
-  - General
+  - ภาษาไทย
+  - books
 heroImage: /posts/forever-not-forever_thumbnail.png
 ---
 
