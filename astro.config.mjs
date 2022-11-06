@@ -35,7 +35,8 @@ export default defineConfig({
           p: 'mb-6',
           a: 'underline underline-offset-2 hover:text-orange-500 decoration-orange-500',
           ul: 'list-disc mt-4 ml-6',
-          li: 'gap-6 mb-6'
+          li: 'gap-6 mb-6',
+          blockquote: 'ml-6 italic border-l-4 border-orange-400 px-4'
         }
       ]
     ]
