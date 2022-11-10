@@ -14,11 +14,12 @@ export interface Props {
     updatedAt?: string
     heroImage?: string
     tags: string[]
+    readingTime: string
   }
 }
 
 const {
-  content: { title, description, createdAt, updatedAt, heroImage }
+  content: { title, description, createdAt, updatedAt, heroImage, readingTime }
 } = Astro.props
 ---
 
@@ -52,8 +53,11 @@ const {
         {
           createdAt && (
             <time>
-              {new Date(createdAt).toLocaleDateString()}{' '}
-              {new Date(createdAt).toLocaleTimeString()}
+              {new Date(createdAt).toLocaleDateString('en-us', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+              })}
             </time>
           )
         }
@@ -62,12 +66,16 @@ const {
             <div>
               Last updated on{' '}
               <time>
-                {new Date(updatedAt).toLocaleDateString()}{' '}
-                {new Date(updatedAt).toLocaleTimeString()}
+                {new Date(updatedAt).toLocaleDateString('en-us', {
+                  year: 'numeric',
+                  month: 'long',
+                  day: 'numeric'
+                })}
               </time>
             </div>
           )
         }
+        {readingTime && <strong>{readingTime}</strong>}
         <hr class="my-4 border-top border-zinc-400" />
         <slot />
         <span

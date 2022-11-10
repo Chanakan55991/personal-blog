@@ -10,6 +10,7 @@ import image from "@astrojs/image";
 // https://astro.build/config
 import tailwind from "@astrojs/tailwind";
 import addClasses from 'rehype-add-classes';
+import { remarkReadingTime } from './remark-reading-time';
 
 // https://astro.build/config
 
@@ -21,6 +22,7 @@ export default defineConfig({
   }), tailwind()],
   markdown: {
     extendDefaultPlugins: true,
+    remarkPlugins: [remarkReadingTime],
     rehypePlugins: [[addClasses, {
       h1: 'text-4xl font-bold font-mplus mb-2',
       h2: 'text-2xl font-bold font-mplus mb-2',
