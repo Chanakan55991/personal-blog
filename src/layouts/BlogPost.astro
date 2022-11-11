@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro'
 import Body from '../components/Body.astro'
 import Content from '../components/Content.astro'
 import Breadcrumb from '../components/Breadcrumb.astro'
+import TimestampDate from '../components/TimestampDate'
 
 export interface Props {
   content: {
@@ -52,26 +53,14 @@ const {
         <div>{description}</div>
         {
           createdAt && (
-            <time>
-              {new Date(createdAt).toLocaleDateString('en-us', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-              })}
-            </time>
+            <TimestampDate timestamp={createdAt} time client:only="react" />
           )
         }
         {
           updatedAt && (
             <div>
               Last updated on{' '}
-              <time>
-                {new Date(updatedAt).toLocaleDateString('en-us', {
-                  year: 'numeric',
-                  month: 'long',
-                  day: 'numeric'
-                })}
-              </time>
+              <TimestampDate timestamp={updatedAt} time client:only="react" />
             </div>
           )
         }
